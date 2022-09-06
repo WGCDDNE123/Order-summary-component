@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  /* border: 2px solid black; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  box-shadow: 0px 12px 32px -6px hsl(224, 23%, 55%);
+  border-radius: 10px;
+  z-index: 2000;
+}
+
+.bopy {
+  /* border: 1px solid red; */
+  font-weight: 900;
+}
+p {
+  text-align: center;
+  /* border: 1px solid red; */
+  font-size: 16px;
+  font-weight: 500;
+  /* color: grey; */
+}
+.divindiv {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.icon-section {
+  display: flex;
+  /* border: 2px solid; */
+  gap: 20px;
+}
+.cta {
+  /* border: 1px solid ; */
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 7px;
+  margin-top: 25px;
+}
+a {
+  /* border: 1px solid; */
+}
+
+.thankGOD {
+  background-color: hsl(245, 75%, 52%);
+  border: 1px solid black;
+  width: 80%;
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-block: 25px;
+  box-shadow: 0px 12px 30px -6px hsl(224, 23%, 55%);
+}
+
+.almost {
+  font-weight: 700;
+  font-size: 14px;
+  background-color: white;
+  opacity: 70%;
+  margin-bottom: 40px;
+}
+.bobby {
+  opacity: 70%;
+  margin-top: 20px;
+}
+
+.bring {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.freshfish{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
