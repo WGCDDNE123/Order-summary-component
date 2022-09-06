@@ -100,3 +100,8 @@ a {
     top: 0;
     width: 100%;
 }
+.attribution{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 11px;
+}
